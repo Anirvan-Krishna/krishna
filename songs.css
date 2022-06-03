@@ -1,0 +1,28 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+#content{
+  font-family: 'Roboto', sans-serif;
+}
+
+#navlog{
+  max-height: 20%;
+  max-width: 20%;
+}
+
+#navbarSupportedContent a{
+ padding-right: 190px;
+ display: flex;
+ flex-direction: row;
+ justify-content:space-between;
+}
+
+.container{
+  padding: 5px;
+}
+.container video{
+  background-size:cover;
+}
