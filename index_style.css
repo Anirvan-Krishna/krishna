@@ -6,7 +6,6 @@ body{
 }
 
 #logo{
-  filter: blur(0px);
   display: inline-block;
   vertical-align: top;
 }
@@ -34,4 +33,11 @@ body{
 }
 #content{
   font-family: 'Roboto', sans-serif;
+  padding-bottom: 0px;
+}
+ #navbarSupportedContent a{
+  padding-right: 190px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
 }
