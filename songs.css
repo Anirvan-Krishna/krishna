@@ -13,6 +13,16 @@ body{
   max-width: 20%;
 }
 
-#navbar{
-  background-color: #ffff;
+#navbarSupportedContent a{
+ padding-right: 190px;
+ display: flex;
+ flex-direction: row;
+ justify-content:space-between;
+}
+
+.container{
+  padding: 5px;
+}
+.container video{
+  background-size:cover;
 }
